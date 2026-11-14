@@ -1574,5 +1574,10 @@ function build(){const D=OUR_DAYS.map(d=>({...d,t:new Date(d.date)})).filter(d=>
 document.addEventListener('slidechange',e=>{if(e.detail.id==='credits'){try{an&&an.cancel()}catch(_){}build()}else{try{an&&an.cancel()}catch(_){}}})}catch(e){}
 })();
 </script>
+<style id="v7">
+#home .slide-inner{padding-top:30px}
+section:has(.orb,.chest,.cake,.hb-heart) .slide-inner{padding-top:30px}
+@media(max-width:480px){.brand{font-size:0!important;letter-spacing:0!important}.brand:after{content:"FOR HAGER";font-size:11px;letter-spacing:1.5px}}
+</style>
 </body>
 </html>
